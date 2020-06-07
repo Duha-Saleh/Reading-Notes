@@ -8,14 +8,6 @@ brackets) to give the information they surround special
 meaning*
 
 *Tags are often referred to as elements*
-
-*tags usually come in pairs. The opening tag denotes
-the start of a piece of content; the closing tag denotes
-the end*
-
-*Opening tags can carry attributes, which tell us more
-about the content of that element*
-
 *Attributes require a name and a value*
 
 # Chapter8
@@ -32,13 +24,6 @@ particular elements.
 
  <iframes> cut windows into your web pages through
 which other pages can be displayed.
-
- The <meta> tag allows you to supply all kinds of
-information about your web page.
-
-
- Escape characters are used to include special
-characters in your pages
 
 # Chapter17+18
 
