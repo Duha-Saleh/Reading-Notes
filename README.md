@@ -14,4 +14,5 @@ class9 | [Link](https://duha-saleh.github.io/Reading-Notes/class-09)
 class10 | [Link](https://duha-saleh.github.io/Reading-Notes/class-010)
 class11 | [Link](https://duha-saleh.github.io/Reading-Notes/class-011)
 class12 | [Link](https://duha-saleh.github.io/Reading-Notes/class-012)
+class13 | [Link](https://duha-saleh.github.io/Reading-Notes/class-013)
 
