@@ -20,5 +20,12 @@ class14b | [Link](https://duha-saleh.github.io/Reading-Notes/class-014b)
 lab1 | [Link](https://duha-saleh.github.io/Reading-Notes/lab1)
 lab2 | [Link](https://duha-saleh.github.io/Reading-Notes/lab2)
 lab3 | [Link](https://duha-saleh.github.io/Reading-Notes/lab3)
+lab4 | [Link](https://duha-saleh.github.io/Reading-Notes/lab4)
+lab5 | [Link](https://duha-saleh.github.io/Reading-Notes/lab5)
+lab6 | [Link](https://duha-saleh.github.io/Reading-Notes/lab6)
+lab7 | [Link](https://duha-saleh.github.io/Reading-Notes/lab7)
+
+
+
 
 
