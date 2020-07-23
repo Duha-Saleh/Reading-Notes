@@ -1,0 +1,36 @@
+Heroku treats logs as streams of time-ordered events aggregated from the output streams of all your app and Heroku components, providing a single channel for all of the events.
+
+View information about your running app using one of the logging commands, heroku logs --tail:
+
+heroku logs --tail
+2011-03-10T10:22:30-08:00 heroku[web.1]: State changed from created to starting
+2011-03-10T10:22:32-08:00 heroku[web.1]: Running process with command: `node index.js`
+2011-03-10T10:22:33-08:00 heroku[web.1]: Listening on 18320
+2011-03-10T10:22:34-08:00 heroku[web.1]: State changed from starting to up
+Visit your application in the browser again, and you’ll see another log message generated.
+
+Press Control+C to stop streaming the logs.
+
+
+Define a Procfile
+Use a Procfile, a text file in the root directory of your application, to explicitly declare what command should be executed to start your app.
+
+The Procfile in the example app you deployed looks like this:
+
+web: node index.js
+This declares a single process type, web, and the command needed to run it. The name web is important here. It declares that this process type will be attached to the HTTP routing stack of Heroku, and receive web traffic when deployed.
+
+Procfiles can contain additional process types. For example, you might declare one for a background worker process that processes items off of a queue.
+
+ Run the app locally
+Now start your application locally using the heroku local command, which was installed as part of the Heroku CLI:
+
+heroku local web
+[OKAY] Loaded ENV .env File as KEY=VALUE Format
+1:23:15 PM web.1 |  Node app is running on port 5000
+Just like Heroku, heroku local examines the Procfile to determine what to run.
+
+Open http://localhost:5000 with your web browser. You should see your app running locally.
+
+To stop the app from running locally, in the CLI, press Ctrl+C to exit.
+
