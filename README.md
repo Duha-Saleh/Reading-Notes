@@ -24,6 +24,7 @@ lab4 | [Link](https://duha-saleh.github.io/Reading-Notes/lab4)
 lab5 | [Link](https://duha-saleh.github.io/Reading-Notes/lab5)
 lab6 | [Link](https://duha-saleh.github.io/Reading-Notes/lab6)
 lab7 | [Link](https://duha-saleh.github.io/Reading-Notes/lab7)
+lab8 | [Link](https://duha-saleh.github.io/Reading-Notes/lab8)
 
 
 
